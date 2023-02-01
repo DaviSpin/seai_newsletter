@@ -1,0 +1,4 @@
+- Should be able to create sender
+- Should be able to create a News
+- Should be able to register events logs
+- Receiver should be able to register to news
