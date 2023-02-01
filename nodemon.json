@@ -1,0 +1,10 @@
+{
+    "restartable": "rs",
+    "watch": ["src"],
+    "ext": ".ts,.js",
+    "ignore": [
+      ".git",
+      "node_modules"
+    ],
+    "exec": "SET NODE_ENV=development & ts-node src/index.ts"
+  }
