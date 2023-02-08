@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+
+}
+body{
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#news-title{
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.content{
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#btn-newsletter-unsubscribe{
+    text-align: center;
+    align-self: center;
+    
+    
+}

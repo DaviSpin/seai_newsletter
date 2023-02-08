@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWSLETTER-TEMPLATE</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <h1 id="news-title">{{title}}</h1>
+    <h4 id="news-description">{{description}}</h4>
+
+    <!-- LOOP AQUI PELO O BODY -->
+    <main class="news-contents">
+        <article id="content-1" class="content">
+            <header class="content-title" id="content1-header">{{content_title}}</header>
+            <p id="description">
+                {{content}}
+            </p>
+
+            <span>Link para a notícia 1: <a href="{{url_link}}">www.test1.com.br</a></span>
+            <span>Link para a notícia 2: <a href="{{url_link}}">www.test2.com.br</a></span>
+            <span>Link para a notícia 3: <a href="{{url_link}}">www.test3.com.br</a></span>
+
+        </article>
+    </main>
+
+    <footer>
+        <span>{{street}}, {{number}}, {{state}} do {{}}, cep</span>
+        <br>
+        <a href="{{link}}">Desinscrever dessa desgraça</a>
+    </footer>
+</body>
+</html>
